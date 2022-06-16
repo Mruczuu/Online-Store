@@ -2,4 +2,4 @@
 
 Online Store Project
 
-Hej hej hej
+We will put here some more details in future :)
