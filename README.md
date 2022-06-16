@@ -2,5 +2,4 @@
 
 Online Store Project
 
-Projekt sklepu internetowego
-nnn
+Hej hej hej
