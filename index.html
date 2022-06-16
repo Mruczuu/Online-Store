@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BabyShick</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="logo.jpg" width="125px" />
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Strona główna</a></li>
+              <li><a href="produkty.html">Produkty</a></li>
+              <li><a href="">O nas</a></li>
+              <li><a href="">Kontakt</a></li>
+              <li><a href="">Konto</a></li>
+            </ul>
+          </nav>
+          <img src="cart.png" width="30px" height="30px" />
+          <img src="menu.png" class="menu-icon" onclick="menutoggle()" />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Sklep z artykułami dla niemowląt i dzieci<br />
+              Baby Schick
+            </h1>
+            <p>Zapewnij swojemu dziecku najlepszy komfort</p>
+            <a href="produkty.html" class="btn"
+              >Rozejrzyj się już teraz! &#8594;</a
+            >
+          </div>
+          <div class="col-2"><img src="glowne-zdj.jpg" /></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------ featured categories ---------- -->
+    <!-- <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3"><img src="product-1.jpg" /></div>
+          <div class="col-3"><img src="product-2.jpg" /></div>
+          <div class="col-3"><img src="product-3.jpg" /></div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- ------------offert---------- -->
+    <div class="offert">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2"><img src="product-1.jpg" /></div>
+          <div class="col-2">
+            <p>Już dostępna na BabyShick</p>
+            <h1>Spacerówka Corso</h1>
+            <small
+              >Jedna z najwygodniejszych spacerówek dla każdej małej pociechy!
+              Konkurencyjna cena oraz najlepsza jakość.</small
+            ><br />
+            <a href="" class="btn">Kup teraz &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------ featured products ---------- -->
+    <div class="small-container">
+      <h2 class="title">Polecane produkty</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="product-1.jpg" />
+          <h4>Spacerówka Corso</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>1899.00zł</p>
+        </div>
+        <div class="col-4">
+          <img src="wozek-holland.jpg" />
+          <h4>Wózek Holland</h4>
+          <p>1899.00zł</p>
+        </div>
+        <div class="col-4">
+          <img src="product-2.jpg" />
+          <h4>Nosidełko</h4>
+          <p>500.00zł</p>
+        </div>
+        <div class="col-4">
+          <img src="product-3.jpg" />
+          <h4>Wanienka dla dziecka</h4>
+          <p>249.00zł</p>
+        </div>
+      </div>
+      <h2 class="title">Najnowsze produkty</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="product-1.jpg" />
+          <h4>Spacerówka Corso</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>1899.00zł</p>
+        </div>
+        <div class="col-4">
+          <img src="wozek-holland.jpg" />
+          <h4>Wózek Holland</h4>
+          <p>1899.00zł</p>
+        </div>
+        <div class="col-4">
+          <img src="product-2.jpg" />
+          <h4>Nosidełko</h4>
+          <p>500.00zł</p>
+        </div>
+        <div class="col-4">
+          <img src="product-3.jpg" />
+          <h4>Wanienka dla dziecka</h4>
+          <p>249.00zł</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="product-1.jpg" />
+          <h4>Spacerówka Corso</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>1899.00zł</p>
+        </div>
+        <div class="col-4">
+          <img src="wozek-holland.jpg" />
+          <h4>Wózek Holland</h4>
+          <p>1899.00zł</p>
+        </div>
+        <div class="col-4">
+          <img src="product-2.jpg" />
+          <h4>Nosidełko</h4>
+          <p>500.00zł</p>
+        </div>
+        <div class="col-4">
+          <img src="product-3.jpg" />
+          <h4>Wanienka dla dziecka</h4>
+          <p>249.00zł</p>
+        </div>
+      </div>
+    </div>
+    <!-- ------------offert---------- -->
+    <!-- <div class="offert">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2"><img src="product-1.jpg" /></div>
+          <div class="col-2">
+            <p>Już dostępna na BabyShick</p>
+            <h1>Spacerówka Corso</h1>
+            <small
+              >Jedna z najwygodniejszych spacerówek dla każdej małej pociechy!
+              Konkurencyjna cena oraz najlepsza jakość.</small
+            >
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- ---------brands---------- -->
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="logo.jpg" />
+          </div>
+          <div class="col-5">
+            <img src="logo.jpg" />
+          </div>
+          <div class="col-5">
+            <img src="logo.jpg" />
+          </div>
+          <div class="col-5">
+            <img src="logo.jpg" />
+          </div>
+          <div class="col-5">
+            <img src="logo.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------footer-------- -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Odwiedź nas też w sklepie stacjonarnym</h3>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.0948130886914!2d16.651838900000005!3d50.43933459999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x633f927e414a7758!2sSklep%20z%20artyku%C5%82ami%20dla%20niemowl%C4%85t%20i%20dzieci%20SCHICK!5e0!3m2!1spl!2spl!4v1655204719603!5m2!1spl!2spl"
+              width="300"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="footer-col-2">
+            <img src="glowne-zdj.jpg" />
+            <h1>Baby Schick</h1>
+          </div>
+          <div class="footer-col-3">
+            <h3>Linki</h3>
+            <ul>
+              <li>Kody promocyjne</li>
+              <li>Polityka zwrotu</li>
+              <!-- <li>Kody promocyjne</li>
+              <li>Kody promocyjne</li> -->
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Obserwuj nas</h3>
+            <ul>
+              <li>Facebook</li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright BabyShick 2022</p>
+      </div>
+    </div>
+    <!-- ------------ js for toggle menu ------ -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
