@@ -94,7 +94,7 @@ nav-p ul li {
   margin-top: -25px;
 }
 .row {
-  margin-top: -200px;
+  margin-top: -950px;
   margin-left: 100px;
   display: flex;
   align-items: center;
@@ -116,4 +116,21 @@ nav-p ul li {
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
+}
+.title {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+}
+.title::after {
+  margin-bottom: -10px;
+  content: "";
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
